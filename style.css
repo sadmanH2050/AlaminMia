@@ -49,5 +49,31 @@ body {
      text-decoration: none;
      text-transform: capitalize;
      padding: 0px 5px 0px 25px;
-     color: #FA6B58;
+     color: #f05f88;
+     font-weight: 600;
+}
+
+/* home ---------- */
+.homePage {
+     display: flex;
+     width: 100vw;
+     padding: 80px;
+}
+.homeContent {
+     width: 50%;
+     padding: 40px;
+}
+.homeContent h2 {
+     font-size: 40px;
+     font-weight: 600;
+}
+.homeContent h1 {
+     font-size: 50px;
+     font-weight: 800;
+}
+.homeContent h3 {}
+.homeContent p {}
+.homeContent a {}
+.homeImage {
+     width: 50%;
 }
