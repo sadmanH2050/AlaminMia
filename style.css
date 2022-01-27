@@ -56,12 +56,13 @@ body {
 /* home ---------- */
 .homePage {
      display: flex;
-     width: 100vw;
-     padding: 80px;
+     width: 100vw;  
+     padding: 10px;
+     height: 100vh;
 }
 .homeContent {
      width: 50%;
-     padding: 40px;
+     padding: 100px;
 }
 .homeContent h2 {
      font-size: 40px;
@@ -76,4 +77,8 @@ body {
 .homeContent a {}
 .homeImage {
      width: 50%;
+     text-align: center;
+}
+.homeImage img {
+     width: 80%;
 }
