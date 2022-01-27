@@ -10,3 +10,44 @@
 body {
      font-family: 'Poppins', sans-serif;
 }
+
+/* header ---------- */
+.header {
+     background: url("images/top-banner.png");
+     background-repeat: no-repeat;
+}
+/* navBar ---------- */
+.navBar {
+     display: flex;
+     position: sticky;
+     background: url(images/top-banner.png);
+     background-repeat: no-repeat;
+     padding: 15px 20%;
+     height: 80px;
+     top: 0;
+     width: 100%;
+     flex-direction: row;
+     flex-wrap: wrap;
+     justify-content: space-between;
+}
+.logo {}
+.logo img {
+     width: 50px;
+}
+.menuSection {
+     width: 80%;
+     text-align: right;
+     padding: 18px 0px 0px 0px;
+}
+.menuSection ul {
+     display: inline-flex;
+}
+.menuSection ul li {
+     list-style-type: none;
+}
+.menuSection ul li a {
+     text-decoration: none;
+     text-transform: capitalize;
+     padding: 0px 5px 0px 25px;
+     color: #FA6B58;
+}
