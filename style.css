@@ -32,7 +32,7 @@ body {
 }
 .logo {}
 .logo img {
-     width: 50px;
+     width: 70px;
 }
 .menuSection {
      width: 80%;
@@ -71,10 +71,27 @@ body {
 .homeContent h1 {
      font-size: 50px;
      font-weight: 800;
+     color: #f05f88;
 }
 .homeContent h3 {}
-.homeContent p {}
-.homeContent a {}
+.homeContent p {
+     padding: 20px 0px;
+}
+.homeContent a {
+     text-decoration: none;
+     text-transform: uppercase;
+     background: linear-gradient(to left, #FFA132, #FFCC1B);
+     color: white;
+     font-size: 15px;
+     font-weight: 600;
+     padding: 10px 30px;
+     margin-top: 10px;
+     border-radius: 8px;
+}
+.homeContent a:hover {
+     background: linear-gradient(to right, #FFA132, #FFCC1B);
+     margin-left: 5px;
+}
 .homeImage {
      width: 50%;
      text-align: center;
