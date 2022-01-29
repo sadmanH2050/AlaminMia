@@ -11,91 +11,127 @@ body {
      font-family: 'Poppins', sans-serif;
 }
 
-/* header ---------- */
-.header {
-     background: url("images/top-banner.png");
-     background-repeat: no-repeat;
+/* repeating code ---------- */
+.container {
+     width: 100%;
+     display: flex;
+     padding: 50px;
 }
+.halfContainer {
+     width: 50%;
+}
+.button {
+     text-decoration: none;
+     padding: 5px 20px;
+     border-radius: 5px;
+     transition: all linear 0.4s;
+     color: #F88B6A;
+     text-transform: uppercase;
+     background: #EC4C78;
+     color: white;
+}
+.button:hover {
+     background: #fb9754;
+     color: white;
+     margin-left: 8px;
+}
+
+/* header ---------- */
+.header {}
+
 /* navBar ---------- */
 .navBar {
+     background: url("images/top-banner.png");
+     background-repeat: no-repeat;
      display: flex;
      position: sticky;
-     background: url(images/top-banner.png);
-     background-repeat: no-repeat;
-     padding: 15px 20%;
-     height: 80px;
      top: 0;
      width: 100%;
-     flex-direction: row;
-     flex-wrap: wrap;
-     justify-content: space-between;
+     padding: 10px 15vw 10px 15vw;
 }
-.logo {}
+.logo {
+     width: 10%;
+}
 .logo img {
-     width: 70px;
+     width: 40px;
 }
 .menuSection {
-     width: 80%;
+     width: 90%;
      text-align: right;
-     padding: 18px 0px 0px 0px;
 }
 .menuSection ul {
      display: inline-flex;
+
 }
 .menuSection ul li {
+     padding: 15px 10px 10px;
      list-style-type: none;
 }
 .menuSection ul li a {
-     text-decoration: none;
      text-transform: capitalize;
-     padding: 0px 5px 0px 25px;
-     color: #f05f88;
-     font-weight: 600;
+     text-decoration: none;
+     padding: 5px 20px;
+     border-radius: 5px;
+     transition: all linear 0.4s;
+     color: #F88B6A;
+}
+.menuSection ul li a:hover {
+     background: #FB6454;
+     color: white;
 }
 
 /* home ---------- */
-.homePage {
-     display: flex;
-     width: 100vw;  
-     padding: 10px;
-     height: 100vh;
-}
+.home {}
 .homeContent {
-     width: 50%;
-     padding: 100px;
+     padding: 100px 50px;
 }
 .homeContent h2 {
      font-size: 40px;
-     font-weight: 600;
+     padding-bottom: 5px;
+     color: rgb(95, 93, 93);
 }
 .homeContent h1 {
      font-size: 50px;
-     font-weight: 800;
-     color: #f05f88;
+     color: #f87567;
+     padding: 15px 0px;
 }
-.homeContent h3 {}
+.homeContent h3 {
+     padding: 15px 0px;
+     color: rgb(88, 87, 87);
+}
 .homeContent p {
-     padding: 20px 0px;
+     margin-bottom: 20px;
+     color: gray;
 }
-.homeContent a {
-     text-decoration: none;
-     text-transform: uppercase;
-     background: linear-gradient(to left, #FFA132, #FFCC1B);
-     color: white;
-     font-size: 15px;
-     font-weight: 600;
-     padding: 10px 30px;
-     margin-top: 10px;
-     border-radius: 8px;
-}
-.homeContent a:hover {
-     background: linear-gradient(to right, #FFA132, #FFCC1B);
-     margin-left: 5px;
-}
+.homeContent a {}
+.homeContent a:hover {}
 .homeImage {
-     width: 50%;
      text-align: center;
 }
 .homeImage img {
      width: 80%;
 }
+
+/* about ---------- */
+.about {}
+.aboutImages {
+     text-align: center;
+}
+.aboutImages img {
+     width: 70%;
+}
+.aboutContent {
+     padding: 100px 50px;
+}
+.aboutContent h2 {
+     font-size: 40px;
+     padding: 50px 0px 10px;
+     color: rgb(95, 93, 93);
+     text-transform: capitalize;
+}
+.aboutContent p {
+     margin-bottom: 20px;
+     color: gray;
+}
+.aboutContent a {}
+.aboutContent a:hover {}
