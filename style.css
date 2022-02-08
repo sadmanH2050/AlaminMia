@@ -127,7 +127,7 @@ body {
 
 /* about ---------- */
 .about {
-     padding: 100px;
+     padding: 100px 100px 50px 100px;
      background: url("images/biography-bg.png");
      background-repeat: no-repeat;
 }
@@ -167,15 +167,39 @@ body {
 }
 
 /* contact ---------- */
-.contact {
+.contactSection {
      background: url("images/footer-bg.png");
      background-repeat: no-repeat;
      width: 100%;
-     padding: 200px auto;
+     padding: 150px auto;
      text-align: center;
 }
-.contact h2 {}
-.contact ul {}
-.contact ul li {}
-.contact ul li a {}
-.contact ul li a:hover {}
+.contact {
+     margin: 80px auto;
+     background: #EB4E89;
+     padding: 25px;
+     width: 720px;
+     border-radius: 15px;
+}
+.contact p {
+     color: rgb(236, 228, 228);
+}
+.contact h2 {
+     color: white;
+     padding: 10px 0px 20px;
+}
+.contact ul {
+     display: inline-flex;
+     border: 3px solid white;
+     border-radius: 10px;
+}
+.contact ul li {
+     list-style-type: none;
+     padding: 8px 0px;
+}
+.contact ul li a {
+     color: white;
+     text-decoration: none;
+     padding: 0px 15px;
+     font-size: 25px;
+}
