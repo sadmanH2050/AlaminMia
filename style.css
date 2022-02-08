@@ -168,13 +168,26 @@ body {
 }
 
 /* contact ---------- */
-.contactSection {
+.footer {
      background: url("images/footer-bg.png");
      background-repeat: no-repeat;
      width: 100%;
      padding: 150px auto;
      text-align: center;
 }
+.client {
+     margin: 20px auto;
+     width: 600px;
+}
+.client h2 {
+     font-size: 30px;
+     padding: 0px 0px 30px 0px;
+}
+.client h3 {}
+.client h4 {
+     padding: 0px 0px 30px 0px;
+}
+.client p {}
 .contact {
      margin: 80px auto;
      background: #ec689a;
