@@ -9,6 +9,7 @@
 }
 body {
      font-family: 'Poppins', sans-serif;
+     scroll-behavior: smooth;
 }
 
 /* repeating code ---------- */
@@ -176,7 +177,7 @@ body {
 }
 .contact {
      margin: 80px auto;
-     background: #EB4E89;
+     background: #ec689a;
      padding: 25px;
      width: 720px;
      border-radius: 15px;
